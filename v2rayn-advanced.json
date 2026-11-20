@@ -1,0 +1,359 @@
+[
+  {
+    "port": "443",
+    "network": "udp",
+    "outboundTag": "block",
+    "enabled": true,
+    "remarks": "UDP443阻断"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:private"
+    ],
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "局域网专用规则"
+  },
+  {
+    "outboundTag": "101 香港 HY2",
+    "domain": [
+      "domain:cloudflare.com"
+    ],
+    "enabled": true,
+    "remarks": "cloudflare"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "domain:tigerbrokers.com",
+      "domain:itigerup.com",
+      "domain:itiger.com",
+      "domain:tigerbrokers.com.sg",
+      "domain:tigerbrokers.com.hk",
+      "domain:tigerfintech.com",
+      "domain:skytigris.cn",
+      "domain:skytigris.com",
+      "domain:laohu8.com",
+      "domain:tradeup.com",
+      "domain:itigergrowtha.com",
+      "domain:tigerbbs.com",
+      "domain:tigrdw.com",
+      "domain:play-analytics.com",
+      "domain:lbkrs.com",
+      "domain:longbridge.app",
+      "domain:longbridge.global",
+      "domain:longportapp.com",
+      "domain:longbridge.com",
+      "domain:longbridge.hk",
+      "domain:longbridgehk.com",
+      "domain:longbridge.sg",
+      "domain:longbridge.cn",
+      "domain:longportapp.cn",
+      "domain:futuholdings.com",
+      "domain:futunn.com",
+      "domain:futuhk.com",
+      "domain:futu.link",
+      "domain:futuhn.com",
+      "domain:futu.com",
+      "domain:futu0.com",
+      "domain:futu1.com",
+      "domain:futu2.com",
+      "domain:futu3.com",
+      "domain:futu4.com",
+      "domain:futu5.com",
+      "domain:futu6.com",
+      "domain:futu7.com",
+      "domain:futu8.com",
+      "domain:futu9.com",
+      "domain:futuinc.com",
+      "domain:futuniuniu.com",
+      "domain:futu.cn",
+      "domain:futufin.com",
+      "domain:futuhk2.com",
+      "domain:futuesop.com",
+      "domain:futubull.cn",
+      "domain:futuchain.com",
+      "domain:futustatic.com",
+      "domain:moomoo.com",
+      "domain:moomooapp.com",
+      "domain:moomoobull.com",
+      "domain:appsflyersdk.com",
+      "domain:qcloud.com",
+      "domain:longbridgeapp.com",
+      "domain:longbridgehkapp.com",
+      "domain:longbridgesg.com",
+      "domain:longbridgesgapp.com",
+      "domain:lbctrl.com",
+      "domain:pbkrs.com",
+      "domain:wbrks.com",
+      "domain:tigersecurities.com",
+      "domain:vbkr.com",
+      "domain:9oju31.launches.appsflyersdk.com",
+      "domain:shortconn.im.qcloud.com",
+      "domain:cdn.futustatic.com",
+      "domain:api.moomoobull.com",
+      "domain:sgqt0j.launches.appsflyersdk.com",
+      "domain:api.lbkrs.com",
+      "domain:api-gl.lbkrs.com"
+    ],
+    "ip": [
+      "1.14.242.0/23",
+      "14.152.91.0/24",
+      "38.65.217.0/24",
+      "42.193.128.0/24",
+      "43.130.30.0/24",
+      "43.130.170.0/24",
+      "43.132.107.0/24",
+      "43.135.64.0/24",
+      "43.135.82.0/24",
+      "43.142.232.0/24",
+      "43.145.30.0/24",
+      "43.153.191.0/24",
+      "43.153.233.0/24",
+      "43.160.156.0/24",
+      "49.51.78.0/24",
+      "49.234.241.0/24",
+      "101.32.198.0/24",
+      "106.55.66.0/23",
+      "111.230.119.0/24",
+      "111.230.214.0/24",
+      "119.28.37.0/24",
+      "119.28.141.0/24",
+      "119.28.183.0/24",
+      "119.29.48.0/23",
+      "119.91.245.0/23",
+      "119.147.110.0/24",
+      "121.5.97.0/24",
+      "124.156.124.0/24",
+      "124.156.233.0/24",
+      "124.156.234.0/24",
+      "129.226.79.0/24",
+      "129.226.111.0/24",
+      "162.14.10.0/24",
+      "170.106.48.0/23",
+      "170.106.62.0/24",
+      "183.60.225.0/24",
+      "193.112.84.0/24",
+      "193.112.234.0/24",
+      "43.134.158.106/32",
+      "43.132.138.6/32",
+      "119.28.201.30/32",
+      "49.51.77.113/32",
+      "43.153.234.107/32",
+      "43.153.249.33/32",
+      "43.163.17.229/32",
+      "170.106.201.0/24",
+      "175.178.207.0/24",
+      "42.194.152.250/32",
+      "43.132.106.6/32",
+      "43.132.106.8/32",
+      "43.132.138.67/32",
+      "1.15.158.235/32"
+    ],
+    "enabled": true,
+    "remarks": "券商规则（请按需选择节点）"
+  },
+  {
+    "outboundTag": "110 马来西亚ORACLE HY2",
+    "domain": [
+      "geosite:youtube"
+    ],
+    "enabled": true,
+    "remarks": "油管专用规则"
+  },
+  {
+    "outboundTag": "102 新加坡AWS TLS",
+    "ip": [
+      "160.79.104.0/21",
+      "2607:6bc0::/32"
+    ],
+    "domain": [
+      "geosite:category-ai-!cn",
+      "geosite:google",
+      "domain:openai.com",
+      "domain:chatgpt.com",
+      "domain:muse.ai",
+      "domain:anthropic.com",
+      "domain:claude.ai",
+      "domain:claude.com",
+      "domain:clau.de",
+      "domain:claudemcpclient.com",
+      "domain:claudemcpcontent.com",
+      "domain:claudeusercontent.com",
+      "full:servd-anthropic-website.b-cdn.net",
+      "full:anthropic.com.cdn.cloudflare.net",
+      "full:anthropic.auth0.com",
+      "full:anthropic-com.ghost.io",
+      "domain:withpersona.com",
+      "domain:frompersona.com",
+      "full:maps.googleapis.com",
+      "domain:sentry.io",
+      "domain:statsigapi.net",
+      "full:browser-intake-us5-datadoghq.com",
+      "domain:intercom.io",
+      "domain:intercomcdn.com",
+      "full:cdn.usefathom.com"
+    ],
+    "enabled": true,
+    "remarks": "AI专用规则"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all"
+    ],
+    "enabled": true,
+    "remarks": "广告拦截"
+  },
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:bilibili"
+    ],
+    "enabled": true,
+    "remarks": "哔哩哔哩"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:telegram"
+    ],
+    "enabled": true,
+    "remarks": "Telegram"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:github",
+      "geosite:gitlab"
+    ],
+    "enabled": true,
+    "remarks": "开发平台"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:microsoft"
+    ],
+    "enabled": true,
+    "remarks": "微软"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:apple"
+    ],
+    "enabled": true,
+    "remarks": "苹果"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:facebook",
+      "geosite:instagram",
+      "geosite:twitter",
+      "geosite:tiktok",
+      "geosite:linkedin"
+    ],
+    "enabled": true,
+    "remarks": "社交媒体"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:netflix",
+      "geosite:hulu",
+      "geosite:disney",
+      "geosite:hbo",
+      "geosite:amazon",
+      "geosite:bahamut"
+    ],
+    "enabled": true,
+    "remarks": "流媒体"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:steam",
+      "geosite:epicgames",
+      "geosite:ea",
+      "geosite:ubisoft",
+      "geosite:blizzard"
+    ],
+    "enabled": true,
+    "remarks": "游戏"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:coursera",
+      "geosite:edx",
+      "geosite:udemy",
+      "geosite:khanacademy",
+      "geosite:category-scholar-!cn"
+    ],
+    "enabled": true,
+    "remarks": "教育"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:paypal",
+      "geosite:visa",
+      "geosite:mastercard",
+      "geosite:stripe",
+      "geosite:wise"
+    ],
+    "enabled": true,
+    "remarks": "金融"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:aws",
+      "geosite:azure",
+      "geosite:digitalocean",
+      "geosite:heroku",
+      "geosite:dropbox"
+    ],
+    "enabled": true,
+    "remarks": "云服务"
+  },
+  {
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:telegram",
+      "geoip:google"
+    ],
+    "enabled": true,
+    "remarks": "Telegram及Google IP"
+  },
+  {
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn"
+    ],
+    "enabled": true,
+    "remarks": "国内直连"
+  },
+  {
+    "outboundTag": "proxy",
+    "domain": [
+      "geosite:geolocation-!cn"
+    ],
+    "enabled": true,
+    "remarks": "境外域名"
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true,
+    "remarks": "国外代理"
+  }
+]
